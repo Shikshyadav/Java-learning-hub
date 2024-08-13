@@ -11,7 +11,7 @@ class operators{
 
         int num1 = 9;
         int result = num1++; //fetch the value and then increase
-        int result= ++num1; //first increase then fetch
+        int result1= ++num1; //first increase then fetch
 
 
         //RELATIONAL OPERATORS*********
