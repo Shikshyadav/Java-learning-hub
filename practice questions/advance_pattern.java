@@ -63,4 +63,3 @@ public class advance_pattern {
             }
         
     }
-}
