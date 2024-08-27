@@ -9,11 +9,18 @@ public class functions {
         printName(name); // Pass 'name' to the printName function
 
         sum();
+        System.out.println("Enter the two numbers");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+
+      //  System.out.println(calculateSum(a, b));
+        System.out.println("the product of two numbers are "+ product(a, b));
     }
 
     public static void printName(String name) {
         System.out.println(name);
-        return;
+        return;   //return means finishing the function -->function over
     }
 
     public static void sum(){
@@ -28,5 +35,15 @@ public class functions {
         return;
 
     }
+
+    public static int calculateSum(int a, int b){   // function with integer return type
+        int sum = a+b;    
+      return sum;
+      
+}
+
+public static int product(int a, int b){
+    return a*b;
+}
 }
   
