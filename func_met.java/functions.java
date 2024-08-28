@@ -16,6 +16,9 @@ public class functions {
 
       //  System.out.println(calculateSum(a, b));
         System.out.println("the product of two numbers are "+ product(a, b));
+        
+        String message = greeting();
+        System.out.println(message);
     }
 
     public static void printName(String name) {
@@ -44,6 +47,11 @@ public class functions {
 
 public static int product(int a, int b){
     return a*b;
+}
+// string return type
+public static String greeting(){
+    String greet= "How are you";
+    return greet;
 }
 }
   
