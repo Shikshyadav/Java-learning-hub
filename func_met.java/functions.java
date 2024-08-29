@@ -19,9 +19,17 @@ public class functions {
         
         String message = greeting();
         System.out.println(message);
-        
+
         int n = sc.nextInt();
         printSum(n);
+
+        System.out.println(getGreater(a, b));
+         
+        Double r = sc.nextDouble();
+        System.out.println(getCircumference(radius));
+         
+    }   
+ 
     }
 
     public static void printName(String name) {
@@ -69,6 +77,17 @@ public static void printSum(int n) {
 
    System.out.println(sum);
 }
+ public static int getGreater(int a, int b) {
+      if(a > b) {
+          return a;
+      } else {
+          return b;
+      }
+      public static Double getCircumference(Double radius) {
+        return 2 * 3.14 * radius;
+    }
+ 
+   }
 
-}
+
   
