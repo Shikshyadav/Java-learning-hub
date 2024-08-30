@@ -86,6 +86,12 @@ public static void printSum(int n) {
       public static Double getCircumference(Double radius) {
         return 2 * 3.14 * radius;
     }
+    public static boolean isElligible(int age) {
+        if(age > 18) {
+            return true;
+        }
+        return false;
+    }
  
    }
 
