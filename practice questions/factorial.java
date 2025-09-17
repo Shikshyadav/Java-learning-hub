@@ -21,3 +21,23 @@ factorial(n);    }
     }
     
 }
+
+
+//withput function
+class Solution {
+    // Function to calculate factorial of a number.
+    int factorial(int n) {
+        // code here
+        if(n<0){
+            System.out.println("invalid number");
+            return -1;
+        }
+        int factorial=1;
+        for(int i=n; i>=1; i--)
+        {
+            factorial = factorial*i;
+            
+        }
+        return factorial;
+    }
+}

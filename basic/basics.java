@@ -1,4 +1,3 @@
-package basic;
 class basics{
     public static void main(String[] args) {
         System.out.println("hello world");
@@ -7,10 +6,10 @@ class basics{
 
         int num = 5; //variable of integer type named num has value 5
         int num1 = 8;
-        System.err.println(num+num1);
+        System.out.println(num+num1);
         int result = num1-num;
-        System.err.println(result);
-        System.err.println(num);
+        System.out.println(result);
+        System.out.println(num);
         System.out.println(3+5);
         System.out.println(3*9); 
 
